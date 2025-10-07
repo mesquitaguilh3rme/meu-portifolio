@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+/*INICIO NAV*/
+.nav{
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.nav-list a{
+    padding: 20px;
+    text-decoration: none;
+    color: #a4a4a4;
+    font-weight: bold;
+}
+
+.nav-list a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+}
+/*FIM NAV*/
+
+/*INICIO MAIN*/
+.main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #494949;
+    background-image: url("../img/programador.png");
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+
+.main h1{
+    color: #FFF;
+    font-size: 54px;
+}
+
+.main p{
+    font-size: 24px;
+    color: #1e96fc;
+    margin-top: 10px;
+}
+
+.call-to-action{
+    cursor: pointer;
+    background-color: #FFF;
+    border: none;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.call-to-action:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+/*FIM MAINx*/
