@@ -70,3 +70,78 @@ body{
     transition: 0.9s;
 }
 /*FIM MAINx*/
+
+/*INICIO SOBRE*/
+.sobre{
+    background-color: #fff;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.sobre div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+/*FIM SOBRE*/
+
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+
+    
+}
+
+.lista-projetos{
+    height: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos img{
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 8px;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
+.projetos img:hover{
+    opacity: 1;
+}
+
+.projetos h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+}
+
+.projetos p{
+     margin-bottom: 40px;
+     font-style: italic;
+}
